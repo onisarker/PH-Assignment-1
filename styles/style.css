@@ -1,3 +1,44 @@
 * {
     font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    margin: 15px 0px 5px 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 15px;
+    padding: 15px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #575757;
+    }
+
+.register-btn {
+    background-color: #1D4ED8;
+    color: white;
+    width: 110px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 15px 50px 5px 0px;
+    cursor: pointer;
+    
+}
+
+.register-btn:hover {
+    background-color: #6589d7;
 }
