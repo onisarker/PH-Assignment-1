@@ -1,9 +1,11 @@
+/* universal Selector */
 * {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* CSS for Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -28,14 +30,16 @@ ul li a {
     color: #575757;
 }
 
+/* CSS for button */
 .register-btn {
     background-color: #1D4ED8;
     color: white;
     width: 110px;
     height: 45px;
-    border-radius: 5px;
+    border-radius: 6px;
     margin: 15px 60px 5px 0px;
     cursor: pointer;
+    border: none;
 
 }
 
@@ -43,30 +47,66 @@ ul li a {
     background-color: #6589d7;
 }
 
+/* CSS for hero section */
 .hero-section {
-    display: grid;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-    text-align: center;
-}
-
-.hero-image {
-    grid-area: 1 / 1;
-    max-width: 1260px;
-    height: auto;
-    object-fit: cover;
-}
-
-.hero-content {
-    grid-area: 1 / 1;
-    place-self: center;
-    text-align: center;
+    /* background-image: url('../images/banner.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 500px;
     color: white;
-    width: 700px;
-    z-index: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .hero-heading {
     font-size: 2.9rem;
+}
+
+.button {
+    margin-top: 170px;
+}
+
+/* speakers section */
+.speakers-heading {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.department {
+    color: #2563EB;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0px 30px 0px 30px;
+}
+
+.speakers img {
+    width: 550px;
+}
+
+.speaker-1,
+.speaker-2,
+.speaker-3,
+.speaker-4 {
+    border: 1px solid #E5E7EB;
+    margin: auto;
+}
+
+.designation {
+    font-size: 12px;
+    color: #575757;
+}
+
+.speaker-content {
+    margin: 20px;
+    padding: 15px;
 }
