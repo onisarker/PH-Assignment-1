@@ -11,7 +11,7 @@
 }
 
 .logo {
-    margin: 15px 0px 5px 50px;
+    margin: 15px 0px 5px 60px;
 }
 
 .nav-links {
@@ -26,7 +26,7 @@
 ul li a {
     text-decoration: none;
     color: #575757;
-    }
+}
 
 .register-btn {
     background-color: #1D4ED8;
@@ -34,11 +34,39 @@ ul li a {
     width: 110px;
     height: 45px;
     border-radius: 5px;
-    margin: 15px 50px 5px 0px;
+    margin: 15px 60px 5px 0px;
     cursor: pointer;
-    
+
 }
 
 .register-btn:hover {
     background-color: #6589d7;
+}
+
+.hero-section {
+    display: grid;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image {
+    grid-area: 1 / 1;
+    max-width: 1260px;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-content {
+    grid-area: 1 / 1;
+    place-self: center;
+    text-align: center;
+    color: white;
+    width: 700px;
+    z-index: 1;
+}
+
+.hero-heading {
+    font-size: 2.9rem;
 }
