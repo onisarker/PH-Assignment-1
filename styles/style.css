@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-ul li a {
+.nav-links a {
     text-decoration: none;
     color: #575757;
 }
@@ -80,6 +80,7 @@ ul li a {
     color: #2563EB;
     font-weight: 600;
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
 .speakers {
@@ -104,9 +105,66 @@ ul li a {
 .designation {
     font-size: 12px;
     color: #575757;
+    padding-top: 10px;
 }
 
 .speaker-content {
     margin: 20px;
     padding: 15px;
+}
+
+/* pricing section */
+
+.Pricing-Heading {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 40px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 15px 40px;
+}
+
+.pricing-content {
+    color: #888888;
+    font-size: 12px;
+}
+
+.list {
+    color: #333333;
+    font-size: 12px;
+
+}
+
+.price {
+    color: white;
+}
+
+.pricing-blue {
+    color: #93C5FD;
+    font-size: 12px;
+}
+
+.list-2 {
+    font-size: 12px;
+    color: white;
+}
+
+.pro {
+    background-color: #0D1B2A;
+    border-radius: 5px;
+    margin: auto;
+    padding: 30px;
+}
+.card {
+    background-color: #F8F9FB;
+    border-radius: 5px;
+    margin: auto;
+    padding: 30px;
+}
+.price-content {
+    margin: 5px;
+    padding: 5px;
 }
