@@ -296,3 +296,13 @@ ul li img {
     font-size: 12px;
     text-align: center;
 }
+.list {
+    display: flex;
+    align-items: center;
+    
+}
+.list a {
+    color: gray;
+    text-decoration: none;
+
+}
