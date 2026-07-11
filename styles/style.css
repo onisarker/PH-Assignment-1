@@ -211,7 +211,7 @@
 .testimonials {
     padding: 30px 60px;
     text-align: center;
-    
+
 }
 
 .testimonial-container {
@@ -251,4 +251,48 @@
     color: #555;
     line-height: 1.6;
 }
+
 /* footer section */
+.footer-section {
+    background-color: #0D1B2A;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 60px 0px 60px;
+
+}
+
+.icon-section {
+    color: gray;
+    margin: 50px 60px 0px 60px;
+
+}
+
+.footer-img {
+    margin: 10px 60px;
+    padding: 30px;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+}
+
+ul li img {
+    width: 30px;
+}
+
+.copyright {
+    color: gray;
+    margin: auto;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+}
