@@ -179,7 +179,8 @@
     margin: 5px;
     padding: 5px;
 }
-.pricing-btn{
+
+.pricing-btn {
     width: 160px;
     margin: 7px;
     padding: 7px;
@@ -187,26 +188,30 @@
     cursor: pointer;
     font-size: 12px;
 }
+
 #basic {
     color: #2563EB;
     background-color: white;
     border: 1px solid #2563EB;
 }
+
 #pro {
     background-color: #2563EB;
     color: white;
     border: 1px solid #2563EB;
 }
+
 #team {
     background-color: white;
     color: #0D1B2A;
     border: 1px solid #0D1B2A;
 }
+
 /* Testimonials Section */
 .testimonials {
-    padding: 80px 60px;
+    padding: 30px 60px;
     text-align: center;
-    background: #f8fafc;
+    
 }
 
 .testimonial-container {
@@ -217,34 +222,25 @@
 }
 
 .testimonial-card {
-    background: white;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-shadow: 0 4px 12px rgba(2, 0, 0, 0.1);
     width: 300px;
 }
 
 .testimonial-card p {
-    font-style: italic;
+    font-size: 13px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
 
 /* FAQ Section Starts */
-.faq {
-    padding: 80px 60px;
-}
-
-.faq h2 {
-    text-align: center;
-    margin-bottom: 40px;
-}
 
 .faq-item {
-    background: #f8fafc;
+    background: #edf1f5;
     padding: 20px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin: 10px 60px;
 }
 
 .faq-item h3 {
@@ -255,3 +251,4 @@
     color: #555;
     line-height: 1.6;
 }
+/* footer section */
