@@ -124,7 +124,7 @@
 
 /* pricing section */
 
-.Pricing-Heading {
+.pricing-heading {
     font-size: 1.6rem;
     text-align: center;
     margin: 40px;
@@ -144,7 +144,6 @@
 .list {
     color: #333333;
     font-size: 12px;
-
 }
 
 .price {
@@ -296,12 +295,12 @@ ul li img {
     font-size: 12px;
     text-align: center;
 }
-.list {
+.list-icon {
     display: flex;
     align-items: center;
     
 }
-.list a {
+.list-icon a {
     color: gray;
     text-decoration: none;
 
